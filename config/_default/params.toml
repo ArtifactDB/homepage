@@ -21,11 +21,11 @@ twitterCreator = "@realAaronLun"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "ArtifactDB"
+schemaAuthor = "Aaron Lun"
+schemaAuthorTwitter = "https://twitter.com/realAaronLun"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/aaronlun/"
+schemaAuthorGitHub = "https://github.com/LTLA"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -33,9 +33,8 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/ArtifactDB"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -67,19 +66,19 @@ fillImage = "1270x740 Center" # normalize image size
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2023 Aaron Lun"
 
 # Alert
 alert = false
 alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+alertText = "Introducing ArtifactDB for data artifacts! <a class=\"alert-link stretched-link\" href=\"https://github.com/ArtifactDB/\">Check out ArtifactDB</a>"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/ArtifactDB/homepage"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
@@ -98,7 +97,7 @@ lastMod = false
   darkMode = true
   bootStrapJs = true
   breadCrumb = false
-  highLight = true
+  highLight = false
   kaTex = false
   multilingualMode = false
   docsVersioning = false

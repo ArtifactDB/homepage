@@ -19,6 +19,10 @@ toc: true
 
 Create new content for your site:
 
+```r
+a <- "asdasd"
+```
+
 ```bash
 npm run create [path] [flags]
 ```
